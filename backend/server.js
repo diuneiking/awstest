@@ -11,7 +11,7 @@ app.use(express.json());
 const db = mysql.createPool({
   host: process.env.DB_HOST || "localhost",
   user: process.env.DB_USER || "awstest_user",
-  password: process.env.DB_PASSWORD || "",
+  password: process.env.DB_PASSWORD || "8811967z",
   database: process.env.DB_NAME || "awstest_db",
   port: process.env.DB_PORT || 3306,
 });
