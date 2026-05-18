@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div style={{ padding: "40px", fontFamily: "Arial" }}>
-      <h1>Frontend: React is working.</h1>
+      <h1>Frontend: Updated from local VS Code.</h1>
       <h2>Backend: {message}</h2>
     </div>
   );
