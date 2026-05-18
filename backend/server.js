@@ -25,7 +25,7 @@ app.get("/api/health", (req, res) => {
 
 app.get("/api/db-test", async (req, res) => {
   try {
-    const [rows] = await db.query("SELECT NOW() AS current_time");
+    const [rows] = await db.query("SELECT NOW() AS server_time");
 
     res.json({
       success: true,
